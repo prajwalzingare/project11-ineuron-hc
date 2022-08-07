@@ -1,4 +1,4 @@
-# Project-11 | ineuron | HTML and CSS
+# Project-11 | HTML and CSS | Hosting Landing Page
 
 By prajwal zingare
 
@@ -13,13 +13,16 @@ By prajwal zingare
 
 ![HTML & CSS-Assighnment-project](https://img.shields.io/badge/HTML--CSS-Project--11-orange)
 
-🔗Go Live : [Project-11](https://project11-ineuron-hc.netlify.app/)
+
 
 ---
 
 ![myproject](./COCO/s1.png)
 
 ![myproject](./COCO/Screenshot%202022-07-29%20153052.png)
+
+
+[ <img src= "https://img.shields.io/badge/Go LiVE-1DA1F?style=for-the-badge&logo=&logoColor=white" />](https://project11-ineuron-hc.netlify.app/) 
 
 ---
 ## What I learned from this Project
