@@ -48,6 +48,7 @@
     cursor: pointer;
 }
 
+
 /* main section  */
 .main {
     display: flex;
@@ -179,6 +180,8 @@
     width: 374px;
 }
 
+
+
 /* services section  */
 
 .services {
@@ -200,6 +203,7 @@
     padding-left: 20px;
 }
 
+/* services card  */
 .cards-container {
     margin-right: 4rem;
     margin-left: 6rem;
@@ -455,4 +459,155 @@
 
 .footer .colm-5 .icons {
     padding: 20px 0px;
+}
+
+/* media queries upto technical section  */
+@media screen and (max-width:940px) {
+
+    /* navbar section media  */
+    .navbar-container .grow-list {
+        display: none;
+    }
+
+    /* main section media  */
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        align-items: center;
+    }
+
+    .main-left h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .main-right {
+        margin-top: 20px;
+    }
+
+    /* testing section media */
+    .testing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testing-right {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        align-items: center;
+    }
+
+    .testing-left {
+        margin-left: 0rem;
+        order: 2;
+        margin-top: 30px;
+    }
+
+    .testing-right h1 {
+        font-size: 2rem;
+
+    }
+
+    /* technical section  */
+    .technical {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .technical-left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        align-items: center;
+    }
+
+    .technical-left h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .technical-right {
+        margin-top: 20px;
+    }
+
+    /* services section  desighn  */
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services p {
+        margin-top: 40px;
+        margin-left: 0rem;
+        padding-left: 20px;
+    }
+
+    /* services card  */
+    .cards-container {
+        display: block;
+        align-items: center;
+    }
+
+    /* pricing section  */
+    .pricing-cards {
+        display: flex;
+        margin-left: 150px;
+        margin-right: 250px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .pricing {
+        background: linear-gradient(to right bottom, #11c0f8, #0566ea);
+        height: 2000px;
+    }
+
+    .pricingcard {
+        margin-top: 30px;
+    }
+
+    /* register section  */
+    .register {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register .reg-info h2 {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+
+    /* footer section  */
+    .footer {
+        margin: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .pricing-cards {
+        display: flex;
+        margin-left: 90px;
+        margin-right: 90px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
 }
